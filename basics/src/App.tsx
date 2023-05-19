@@ -1,5 +1,9 @@
 import { useState } from "react";
 
+// components
+import ManageData from "./components/ManageData";
+import ListRender from "./components/ListRender";
+// assets
 import Zetong from "./assets/zetong-li-aySBWg11160-unsplash.jpg";
 
 import "./App.css";
@@ -8,6 +12,8 @@ function App() {
     return (
         <>
             <h1>Landscapes</h1>
+            <ManageData />
+            <ListRender />
             <div>
                 <img
                     width={500}
